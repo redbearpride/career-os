@@ -1,10 +1,14 @@
 from fastapi import FastAPI
 
+from app.api.routes import router as api_router
+
 app = FastAPI(
     title="Executive Career OS",
     version="0.1.0",
     description="AI Career Intelligence Platform"
 )
+
+app.include_router(api_router)
 
 
 @app.get("/")
