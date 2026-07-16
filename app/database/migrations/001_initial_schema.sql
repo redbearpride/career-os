@@ -1,0 +1,20 @@
+-- Executive Career OS
+-- Initial Database Schema
+-- Version 0.1
+
+
+CREATE SCHEMA IF NOT EXISTS candidates;
+
+CREATE SCHEMA IF NOT EXISTS career;
+
+CREATE SCHEMA IF NOT EXISTS vacancies;
+
+CREATE SCHEMA IF NOT EXISTS companies;
+
+CREATE SCHEMA IF NOT EXISTS ai;
+
+CREATE SCHEMA IF NOT EXISTS recruiters;
+
+CREATE SCHEMA IF NOT EXISTS analytics;
+
+CREATE SCHEMA IF NOT EXISTS billing;
